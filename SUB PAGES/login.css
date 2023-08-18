@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+}
+.container {
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* height: 100vh; */
+    width: 100%;
+}
+
+header {
+    margin-bottom: 40px;
+}
+
+.logo p {
+    font-weight: bolder;
+    font-family: 'bahnschrift';
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+
+
+.container form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 40px;
+
+}
+
+form input {
+    width: 100%;
+    margin: 10px 0px;
+    border: none;
+    border: 1px solid  grey;
+    padding: 20px 0px;
+    padding-left: 10px;
+    
+}
+
+form input::placeholder {
+    /* padding-left:15px; */
+    color: grey;
+    font-family: 'bahnschrift';
+    font-weight: lighter;
+}
+
+.input-error {
+    border: 1px solid red;
+    
+}
+
+.input-error:focus {
+    border: 1px solid red;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid blue;
+}
+
+.error-message {
+    font-size: 15px;
+    color: red;
+    text-transform: capitalize;
+}
+
+
+
+.log {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.log button {
+    background:rgb(121, 109, 92);
+    padding: 20px 10px;
+    color: white;
+    border: none;
+    font-family: 'Bahnschrift';
+    width: 100%;
+}
+
+button  {
+    background: white;
+    padding: 20px 10px;
+    font-family: 'bahnschrift';
+    border: 1px solid rgb(121, 109, 92) ;
+    width: 100%;
+}
+
+button a {
+    color:  rgb(121, 109, 92);
+    text-decoration: none;
+}
+
+.or {
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.or::before {
+    content: "";
+    display: block;
+    height: 1px;
+    background: rgb(121, 109, 92);
+    width: 90px;
+}
+.or::after {
+    content: "";
+    display: block;
+    height: 1px;
+    background: rgb(121, 109, 92);
+    width: 90px;
+}
+
+.forgot-pass {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.forgot-pass a {
+    color: grey;
+    font-family: 'bahnschrift';
+    font-weight: lighter;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+hr {
+   width: 100%;
+}
+
+.download {
+    display: flex;
+    flex-direction: row;
+    /* width: 100%; */
+    justify-content: center;
+    align-items: center;
+    margin: 0px 30px;
+    gap: 10px;
+}
+
+.download img {
+    width: 150px;
+}

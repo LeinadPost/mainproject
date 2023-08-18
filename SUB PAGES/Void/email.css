@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    color: white;
+    background: rgb(2, 2, 32);
+    align-items: center;
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 10px;
+    color: whitesmoke;
+    font-family: 'bahnschrift';
+    letter-spacing: 3px;
+    font-weight: 900;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.account-settings {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+   
+}
+
+.account-settings p {
+    font-size: 10px;
+    font-family: 'bahnschrift';
+    color: grey;
+}
+
+.account-settings button {
+    border: none;
+    background: transparent;
+}
+
+.account-settings button img {
+    width: 10px;
+    
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.profile p {
+    font-size: 10px;
+    font-family: 'bahnschrift';
+    color: white;
+    background:grey;
+    padding: 6px;
+    border-radius: 50%;
+}
+
+.profile button {
+    border: none;
+    background: transparent;
+}
+
+.profile button img {
+    width: 10px;
+}
+
+#form {
+    position: fixed;
+    /* top: 0; */
+    left: 0;
+    width: 55%;
+    height: 100%;
+    z-index: 1000;
+}
+
+.form-content {
+   margin: 20px 20px;
+}
+
+#email {
+    position: relative;
+    width: calc(100% - 250px);
+    left: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}

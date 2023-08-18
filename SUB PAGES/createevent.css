@@ -1,0 +1,510 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    color: white;
+    background: rgb(2, 2, 32);
+    align-items: center;
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 10px;
+    color: whitesmoke;
+    font-family: 'bahnschrift';
+    letter-spacing: 3px;
+    font-weight: 900;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.account-settings {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+   
+}
+
+.account-settings p {
+    font-size: 10px;
+    font-family: 'bahnschrift';
+    color: grey;
+}
+
+.account-settings button {
+    border: none;
+    background: transparent;
+}
+
+.account-settings button img {
+    width: 10px;
+    
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.profile p {
+    font-size: 10px;
+    font-family: 'bahnschrift';
+    color: white;
+    background:grey;
+    padding: 6px;
+    border-radius: 50%;
+}
+
+.profile button {
+    border: none;
+    background: transparent;
+}
+
+.profile button img {
+    width: 10px;
+}
+
+.contain {
+    margin: 20px 30px;
+}
+
+.event-head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* background: black; */
+    color: white;
+    /* margin-top:30px;
+    margin-bottom: 20px; */
+    gap: 10px;  
+}
+
+.event-head a {
+    font-size: 10px;
+    text-decoration: none;
+    font-family: 'bahnschrift';
+    font-weight: lighter;
+    color: red;
+}
+
+.event-head button {
+    border: none;
+    background: transparent;
+}
+
+.event-head button img {
+    width: 10px;
+}
+
+.event-function {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    /* border: 1px solid black; */
+    /* gap: 20px; */
+    /* height: 100vh; */
+}
+
+.event-features {
+    margin: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap: 10px;
+}
+
+.event-features .head h3 {
+    font-size: 10px;
+    margin-bottom: 5px;
+    font-family: 'bahnschrift';
+    color: rgb(121, 109, 92);
+    font-weight: normal;
+}
+
+.event-location-head h3 {
+    font-size: 10px;
+    margin-bottom: 5px;
+    font-family: 'bahnschrift';
+    color: rgb(121, 109, 92);
+    font-weight: normal;
+}
+
+.event-logo-head {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.event-logo-head img {
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+.event-logo-head h3 {
+    font-size: 10px;
+    font-family: 'bahnschrift';
+    color: rgb(121, 109, 92);
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.event-logo input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid grey;
+}
+
+.event-image-head {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.event-image-head h3 {
+    font-size: 10px;
+    margin-bottom: 5px;
+    font-family: 'bahnschrift';
+    color: rgb(121, 109, 92);
+    font-weight: normal;
+}
+
+.event-image-head img {
+    height: 20px;
+    margin-bottom: 6px;
+}
+
+.event-image input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid grey;
+}
+
+.event-name input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid grey;
+}
+
+.event-type input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid grey;
+}
+
+.event-location-head {
+    display: flex;
+    gap: 2px;
+}
+
+.location input {
+    border: 1px solid grey;
+    width: 100%;
+    padding: 5px;
+}
+
+.date-time {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.date input {
+    border: 1px solid grey;
+    width: 100%;
+    padding: 5px;
+}
+
+.time input {
+    border: 1px solid grey;
+    width: 100%;
+    padding: 4px;
+}
+.end-date-time {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.end-date input {
+    border: 1px solid grey;
+    width: 100%;
+    padding: 5px;
+}
+
+.end-time input {
+    border: 1px solid grey;
+    width: 100%;
+    padding: 4px;
+}
+
+.time-zone option {
+    border: 1px solid grey;
+    padding: 5px;
+    display: flex;
+}
+
+.time-zone option p {
+    font-size: 3px;
+}
+
+.person option {
+    font-size: 10px;
+    gap: 5px;
+    margin: 3px 0px;
+    font-weight: bolder;
+}
+
+.online-invite {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    /* margin: 10px 0px; */
+}
+
+.online-invite h3 {
+    font-size: 15px;
+    margin-bottom: 4px;
+    font-family: 'bahnschrift';
+    color: rgb(121, 109, 92);
+    font-weight: normal;
+}
+
+.online-invite button {
+    background: transparent;
+    border: none;
+}
+
+.online-invite button img {
+    width: 50px;
+}
+
+.dynamic {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.dynamic-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    /* margin: 10px 0px; */
+}
+
+.dynamic-text h3 {
+    font-size: 15px;
+    margin-bottom: 4px;
+    font-family: 'bahnschrift';
+    color: rgb(121, 109, 92);
+    font-weight: normal;
+}
+
+.dynamic-text button {
+    background: transparent;
+    border: none;
+}
+
+.dynamic-text button img {
+    width: 50px;
+}
+
+.dynamic-guests {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 70px;
+    gap: 5px;
+}
+
+.dynamic-guests p {
+    font-size: 10px;
+    font-family: 'bahnschrift';
+    color: rgb(121, 109, 92);
+    font-weight: bolder;
+    /* margin-bottom: 3px; */
+
+}
+
+.dynamic-guests button {
+    background: transparent;
+    border: none;
+}
+
+.dynamic-guests button img {
+    width: 30px;
+}
+
+.name-badge {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    /* margin: 10px 0px; */
+}
+
+.name-badge h3 {
+    font-size: 15px;
+    margin-bottom: 4px;
+    font-family: 'bahnschrift';
+    color: rgb(121, 109, 92);
+    font-weight: normal;
+}
+
+.name-badge button {
+    background: transparent;
+    border: none;
+}
+
+.name-badge button img {
+    width: 50px;
+}
+
+.consent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    /* margin: 10px 0px; */
+}
+
+.consent h3 {
+    font-size: 15px;
+    margin-bottom: 4px;
+    font-family: 'bahnschrift';
+    color: rgb(121, 109, 92);
+    font-weight: normal;
+}
+
+.consent button {
+    background: transparent;
+    border: none;
+}
+
+.consent button img {
+    width: 50px;
+}
+
+.covid {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.covid-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    /* margin: 10px 0px; */
+}
+
+.covid-text h3 {
+    font-size: 15px;
+    margin-bottom: 4px;
+    font-family: 'bahnschrift';
+    color: rgb(121, 109, 92);
+    font-weight: normal;
+}
+
+.covid-text button {
+    background: transparent;
+    border: none;
+}
+
+.covid-text button img {
+    width: 50px;
+}
+
+.mage {
+    height: 20px;
+}
+
+.covid-cert {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 70px;
+}
+
+.covid-cert p {
+    font-size: 10px;
+    font-family: 'bahnschrift';
+    color: rgb(121, 109, 92);
+    font-weight: bolder;
+    /* margin-bottom: 3px; */
+
+}
+
+.covid-cert button {
+    background: transparent;
+    border: none;
+}
+
+.covid-cert button img {
+    width: 30px;
+}
+
+.btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.btns button {
+    padding: 10px 0px;
+    width: 90%;
+    background: transparent;
+    font-family: 'bahnschrift';
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.btns .cancel {
+    border: 1px solid rgb(121, 109, 92);
+    color: rgb(121, 109, 92);
+}
+
+.btns .create {
+    background:rgb(121, 109, 92);
+    border: none;
+    color: white;
+}

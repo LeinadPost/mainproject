@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    color: white;
+    background: rgb(2, 2, 32);
+    align-items: center;
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 10px;
+    color: whitesmoke;
+    font-family: 'bahnschrift';
+    letter-spacing: 3px;
+    font-weight: 900;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.account-settings {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+   
+}
+
+.account-settings p {
+    font-size: 10px;
+    font-family: 'bahnschrift';
+    color: grey;
+}
+
+.account-settings button {
+    border: none;
+    background: transparent;
+}
+
+.account-settings button img {
+    width: 10px;
+    
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.profile p {
+    font-size: 10px;
+    font-family: 'bahnschrift';
+    color: white;
+    background:grey;
+    padding: 6px;
+    border-radius: 50%;
+}
+
+.profile button {
+    border: none;
+    background: transparent;
+}
+
+.profile button img {
+    width: 10px;
+}
+
+
+#sidebar {
+    position: fixed;
+    /* top: 0; */
+    left: 0;
+    width: 180px;
+    height: 100%;
+    background: rgb(2, 2, 32);
+    z-index: 1000;
+}
+
+#sidebar .side-menu {
+    width: 100%;
+    margin-top: 50px;
+}
+
+#sidebar .side-menu li {
+    height: 45px;
+    background:rgb(2, 2, 32) ;
+    margin-left: 6px;
+    padding: 4px;
+}
+
+#sidebar .side-menu li.active {
+    background: grey;
+    position: relative;
+    z-index: 100;
+
+}
+ 
+
+
+
+
+#sidebar .side-menu li a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'bahnschrift';
+}
+
+.texts {
+    color: grey;
+}
+
+#sidebar .side-menu li a img {
+    width: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+#content {
+    position: relative;
+    width: calc(100% - 180px);
+    left: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+.content-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 5px;
+}
+
+.content-info a {
+    font-size: 10px;
+    color: grey;
+    text-decoration: none;
+    font-family: 'bahnschrift';
+}
+
+.content-info button {
+    font-size: 8px;
+    padding: 5px;
+    color: white;
+    background: rgb(121, 109, 92);
+    border: none;
+    font-family: 'bahnschrift';
+}
+
+.create-guest-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 150px; */
+    margin: 150px 10px;
+}
+
+.create-guest-list h3 {
+    font-size: 15px;
+    color: grey;
+    font-family: 'bahnschrift';
+    text-align: center;
+}
+
+.create-guest-list p {
+    font-size: 10px;
+    color: grey;
+    font-family: 'bahnschrift';
+    text-align: center;
+    margin-top: 20px;
+    line-height: 1.6;
+}
+

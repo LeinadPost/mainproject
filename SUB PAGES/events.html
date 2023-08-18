@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="events.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <a href="#">ZKIPSTER</a>
+            </div>
+            <nav class="navbar">
+                <div class="account-settings">
+                    <p>Account Settings</p>
+                    <button><img src="/images/down.png" alt=""></button>
+                </div>
+                <div class="profile">
+                    <p>OA</p>
+                    <button><img src="/images/down.png" alt=""></button>
+                </div>
+            </nav>
+        </header>
+
+        <div class="event-head">
+            <h1>EVENTS</h1>
+            <button><img src="/images/down.png" alt=""></button>
+        </div>
+        <div class="events">
+            <div class="event-info">
+                <div class="visual-toggle">
+                    <button><img src="/images/menu.png" alt=""></button>
+                    <button><img src="/images/visualization.png" alt=""></button>
+                    <div class="filter">
+                        <button>Filters</button>
+                    </div>
+                </div>
+                <div class="modify-event">
+                    <div class="search-event">
+                        <img src="" alt="">
+                        <input type="text" placeholder="Search events">
+                    </div>
+                    <div class="create-event">
+                        <button><a href="/SUB PAGES/createevent.html">CREATE EVENT</a></button>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+
+       <div id="text"></div>
+
+    </div>
+    <script>
+        let users =['ben', 'john', 'sarah'];
+        let age = [21, 43, 27];
+        let email = ['baen@yahoo.com', 'john@gmail.com', 'sarah@gmail.com'];
+
+ 
+
+        const text = document.getElementById('text')
+        const table = '<table><thead><tr><th>ID</th><th>Name</th><th>Age</th><th>Email</th></tr></thead><tbody>'
+
+
+        for(let i = 0; i< users.length; i++) {
+            table += '<tr><td>'+(i +  1)+'</td><td>'+ users[i] +'</td><td>' + age[i] +'</td><td>' + email[i] + '</td></tr>'
+        }
+
+        table += '</tbody></table>'
+
+        text.innerHTML = table;
+    </script>
+    <script src="/SUB PAGES/table.js"></script>
+</body>
+</html>

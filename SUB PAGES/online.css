@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+}
+.container {
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    /* height: 100vh; */
+    width: 100%;
+}
+
+
+header {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+
+.logo p {
+    margin: 0px 10px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first-nav {
+    margin-left: 70px;
+}
+
+nav .first-nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .first-nav ul li {
+    margin: 0px 30px;
+    list-style: none;
+}
+
+nav .first-nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: lighter;
+    font-family: 'bahnschrift';
+    color: black;
+}
+
+.second-nav {
+    margin-left: 200px;
+}
+
+nav .second-nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .second-nav ul li {
+    margin: 0px 30px;
+    list-style: none;
+}
+
+nav .second-nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: lighter;
+    font-family: 'bahnschrift';
+    color: black;
+}
+
+.logo p {
+    font-weight: bolder;
+    font-family: 'bahnschrift';
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+
+.online-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.online-head h1 {
+    margin-right: 700px;
+    padding-bottom: 30px;
+    font-family: 'bahnschrift';
+    font-weight: lighter;
+}
+
+.online-text {
+    display: flex;
+    flex-direction: row;
+}
+
+.online-text-para button {
+    background: rgb(121, 109, 92);
+    color: white;
+    outline: none;
+    border: none;
+    padding: 10px 10px;
+    font-size: 12px;
+    font-family: 'bahnschrift';
+    
+}
+
+.online-text-para p {
+    font-family: 'bahnschrift';
+    padding: 10px 10px;
+    padding-bottom: 20px
+}

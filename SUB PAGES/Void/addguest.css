@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    color: white;
+    background: rgb(2, 2, 32);
+    align-items: center;
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 10px;
+    color: whitesmoke;
+    font-family: 'bahnschrift';
+    letter-spacing: 3px;
+    font-weight: 900;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.account-settings {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+   
+}
+
+.account-settings p {
+    font-size: 10px;
+    font-family: 'bahnschrift';
+    color: grey;
+}
+
+.account-settings button {
+    border: none;
+    background: transparent;
+}
+
+.account-settings button img {
+    width: 10px;
+    
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.profile p {
+    font-size: 10px;
+    font-family: 'bahnschrift';
+    color: white;
+    background:grey;
+    padding: 6px;
+    border-radius: 50%;
+}
+
+.profile button {
+    border: none;
+    background: transparent;
+}
+
+.profile button img {
+    width: 10px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.guest-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    margin: 0px 5px;
+}
+
+.guest-list h3 {
+    font-size: 13px;
+    font-family: 'bahnschrift';
+    color: grey;
+}
+
+.guest-list img {
+    width: 15px;
+    margin-bottom: 1px;
+}
+
+.add-guest {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px;
+    padding: 10px 0px;
+}
+
+.add-guest h3 {
+    font-size: 15px; 
+    padding: 10px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    background: rgb(121, 109, 92);
+    color: white;
+    font-family: 'bahnschrift';
+    padding: 5px ;
+    border: none;
+    outline: none;
+    
+}
+
+.btn img {
+    width: 15px;
+}
+
+.add {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 5px;
+    display: none;
+}
+
+hr {
+    width: 110%;
+    border: 1px solid black;
+}
+
+.add h2 {
+    font-size: 12px;
+    font-family: 'bahnschrift';
+    margin: 5px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.main-content img {
+    width: 100px;
+}
+
+.main-content h1 {
+    font-size: 25px;
+    font-family: 'bahnschrift';
+    font-weight: lighter;
+    margin-top: 10px;
+}
+
+
+.content-text {
+    margin: 10px 20px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.content-text h2 {
+    font-family: 'bahnschrift';
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.content-text h2 a {
+    color: brown;
+    text-decoration: none;
+}
+

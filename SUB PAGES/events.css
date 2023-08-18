@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+}
+.container {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    color: white;
+    background: rgb(2, 2, 32);
+    align-items: center;
+}
+
+.logo a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'bahnschrift';
+    letter-spacing: 3px;
+    font-weight: 900;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.account-settings {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.account-settings p {
+    font-size: 13px;
+    font-family: 'bahnschrift';
+    color: grey;
+}
+
+.account-settings button {
+    border: none;
+    background: transparent;
+}
+
+.account-settings button img {
+    width: 10px;
+    
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.profile p {
+    font-size: 13px;
+    font-family: 'bahnschrift';
+    color: white;
+    background:grey;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.profile button {
+    border: none;
+    background: transparent;
+}
+
+.profile button img {
+    width: 10px;
+}
+
+.event-head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: black;
+    color: white;
+    padding-top:30px;
+    padding-bottom: 20px;
+    gap: 10px;  
+}
+
+.event-head h1 {
+    font-size: 16px;
+    font-family: 'bahnschrift';
+    font-weight: lighter;
+    color: grey;
+}
+
+.event-head button {
+    border: none;
+    background: transparent;
+}
+
+.event-head button img {
+    width: 10px;
+}
+
+.events {
+    /* width: 80%; */
+    margin: 10px 10px;
+   
+
+
+}
+
+
+.event-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 100%; */
+    /* margin:20px 0px; */
+    
+}
+
+.visual-toggle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.modify-event {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:10px;
+}
+
+.search-event {
+    border-bottom: 1px solid grey;
+}
+
+input {
+    border: none;
+}
+
+
+
+.create-event button {
+    padding: 5px 15px;
+    background: rgb(121, 109, 92);
+    border: none;
+}
+
+.create-event button a {
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+    font-family: 'bahnschrift';
+    font-weight: lighter;
+}
+
+
+
+.visual-toggle button:nth-child(1) {
+    border: none;
+    background: transparent;
+}
+.visual-toggle button:nth-child(2) {
+    border: none;
+    background: transparent;
+}
+.visual-toggle .filter button {
+    background: rgb(230, 230, 230);
+    padding: 5px 10px;
+    font-family: 'bahnschrift';   
+    color: grey; 
+}
+
+.visual-toggle img {
+    width: 20px;
+}
+
+table {
+    text-align: center; 
+}
+
+th {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    border: 2px #000 solid;
+}
+
+td {
+    padding: 20px;
+    border: 2px #000 solid;
+}
